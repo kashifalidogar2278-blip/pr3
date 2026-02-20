@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+        body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background:#26a69a;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.form-box{
+    background:#ffffff;
+    width:350px;
+    padding:30px;
+    border-radius:8px;
+    text-align:center;
+}
+
+.form-box h2{
+    background:#1e8e7e;
+    color:white;
+    padding:20px 0;
+    margin:-30px -30px 20px -30px;
+    border-radius:8px 8px 0 0;
+}
+
+.input-box{
+    margin:15px 0;
+}
+
+.input-box input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.forgot{
+    text-align:left;
+    font-size:14px;
+    color:#1e8e7e;
+    cursor:pointer;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#1e8e7e;
+    color:white;
+    border:none;
+    border-radius:5px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.signup{
+    margin-top:15px;
+    font-size:14px;
+}
+
+.signup span{
+    color:#1e8e7e;
+}
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="form-box">
+        <h2>Login Form</h2>
+
+        <div class="input-box">
+            <input type="text" placeholder="Email or Phone">
+        </div>
+
+        <div class="input-box">
+            <input type="password" placeholder="Password">
+        </div>
+
+        <p class="forgot">Forgot password?</p>
+
+        <button>Login</button>
+
+        <p class="signup">Not a member? <span>Signup now</span></p>
+    </div>
+</div>
+
+</body>
+</html>
